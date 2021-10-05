@@ -93,7 +93,7 @@ const RoadMap = (props: any) => {
                   {props.roadmap['roadmap-beyond'][0].name}
                 </h3>
                 <span className="qualification__subtitle">
-                  H{props.roadmap['roadmap-beyond'][0].details}
+                  {props.roadmap['roadmap-beyond'][0].details}
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt" />
@@ -104,7 +104,7 @@ const RoadMap = (props: any) => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  a{props.roadmap['roadmap-beyond'][1].name}
+                  {props.roadmap['roadmap-beyond'][1].name}
                 </h3>
                 <span className="qualification__subtitle">
                   {props.roadmap['roadmap-beyond'][1].details}
